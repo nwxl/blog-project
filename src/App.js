@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
       <header className='App-header'>
-      <Card/>
+              <HomePage/>
       </header>
     </div>
   );
